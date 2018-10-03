@@ -1,6 +1,11 @@
 #include <iostream>
+#include <Ping.hpp>
 #include <Dot/Dot.hpp>
 
-int main(int argc, char *argv[]){
-	return 0;
+using namespace ping;
+
+int main(int argc, char *argv[])
+{
+	Ping p;
+	return p.run();
 }
